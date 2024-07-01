@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Verbindungsinformationen</h1>
+    </header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="Danny.html">Danny</a></li>
+            <li><a href="Linus.html">Linus</a></li>
+            <li><a href="Max.html">Max</a></li>
+            <li><a href="Chris.html">Chris</a></li>
+            <li><a href="Luca.html">Luca</a></li>
+            <li><a href="Yannis.html">Yannis</a></li>
+            <li><a href="Kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <div class="sections-container">
+        <section>
+            <h2>Unseren Standort</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.0283385274165!2d9.212564054947471!3d49.14657791109227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47982f44671ce9c1%3A0xf81801b6c8b4ea05!2sDuale%20Hochschule%20Baden-W%C3%BCrttemberg%20Heilbronn!5e0!3m2!1sde!2sde!4v1702472312435!5m2!1sde!2sde" width="600" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <h2>Kontaktinformationen:</h2>
+            <p>Bei Fragen oder Problemen erreichst du uns unter:</p>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> <a href="mailto:minecraft@example.com">minecraft@example.com</a></li>
+                <li><strong>Telefon:</strong> <a href="tel:+491234567890">+49 123 4567890</a></li>
+            </ul>
+            <br>
+            <h2>Weitere Informationen:</h2>
+            <p>Du kannst uns auch auf unseren Social-Media-Plattformen folgen, um immer auf dem neuesten Stand zu bleiben:</p>
+            <ul class="social-media-links">
+                <li><a href="https://twitter.com/MinecraftServer" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com/MinecraftServer" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/MinecraftServer" target="_blank">Facebook</a></li>
+            </ul>
+            <br>
+            <h2>Support-Anfragen:</h2>
+            <p>Für Support-Anfragen nutze bitte unser <a href="Index.html">Support-Formular</a>. Wir melden uns so schnell wie möglich bei dir.</p>
+            <br>
+            <h2>Besuche uns persönlich:</h2>
+            <p>Wir freuen uns auch über persönliche Besuche. Unsere Adresse:</p>
+            <address>
+                Duale Hochschule Baden-Württemberg Heilbronn<br>
+                Musterstraße 123<br>
+                12345 Heilbronn<br>
+                Deutschland
+            </address>
+        </section>
+
+        <!-- Kommentarbereich -->
+        <section>
+            <h2>Kommentare</h2>
+            <div id="commentSection">
+                <h3>Schreibe einen Kommentar</h3>
+                <form id="commentForm">
+                    <label for="username">Benutzername:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br>
+                    <label for="comment">Kommentar:</label>
+                    <textarea id="comment" name="comment" required></textarea>
+                    <br>
+                    <button type="submit">Kommentar hinzufügen</button>
+                </form>
+                <h3>Letzte Kommentare</h3>
+                <div id="commentsContainer"></div>
+            </div>
+        </section>
+
+        <!-- Loginbereich -->
+        <section>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginUsername">Benutzername:</label>
+                <input type="text" id="loginUsername" name="loginUsername" required>
+                <br>
+                <label for="loginPassword">Passwort:</label>
+                <input type="password" id="loginPassword" name="loginPassword" required>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
